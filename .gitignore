@@ -1,0 +1,182 @@
+# New-EnterpriseArchitectureSolution Repository .gitignore
+
+# ================================
+# PowerShell específico
+# ================================
+
+# PowerShell profiles
+$PROFILE
+
+# PowerShell modules cache
+PSGetModuleInfo.xml
+
+# PowerShell Gallery modules
+*.psd1
+
+# PowerShell execution policy bypass files
+*.ps1xml
+
+# ================================
+# IDE e Editores
+# ================================
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Visual Studio
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ================================
+# Logs e Debug
+# ================================
+
+# PowerShell logs
+*.log
+*.log.*
+logs/
+
+# Debug files
+*.pdb
+*.dbg
+
+# Error reports
+*.err
+*.error
+
+# ================================
+# Temporary e Cache
+# ================================
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.*.swp
+.*.swo
+
+# Cache directories
+.cache/
+cache/
+
+# Thumbnails
+Thumbs.db
+ehthumbs.db
+
+# Desktop.ini
+Desktop.ini
+
+# ================================
+# Arquivos de Sistema
+# ================================
+
+# Windows
+*.lnk
+*.url
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Linux
+*~
+
+# ================================
+# Builds e Outputs de Teste
+# ================================
+
+# Outputs de projetos .NET criados pelo script (para testes)
+TestOutputs/
+SampleProjects/
+GeneratedSolutions/
+test-solutions/
+
+# Arquivos de backup
+*.bak
+*.backup
+*.old
+
+# ================================
+# Específico do Projeto
+# ================================
+
+# Arquivos de configuração local
+config.local.json
+settings.local.json
+appsettings.local.json
+
+# Strings de conexão de teste (segurança)
+*connectionstring*
+*connection-string*
+*.connectionstring
+
+# Certificados e chaves
+*.pfx
+*.p12
+*.key
+*.pem
+*.crt
+*.cer
+
+# ================================
+# Documentação temporária
+# ================================
+
+# Markdown temporário
+*.md.tmp
+*.md.bak
+
+# Arquivos de help temporários
+*.help.txt
+*.help.xml
+
+# ================================
+# Package Management
+# ================================
+
+# NuGet packages (se houver testes com projetos reais)
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# ================================
+# Git específico
+# ================================
+
+# Git hooks personalizados (manter apenas exemplos)
+.git/hooks/*
+!.git/hooks/*.sample
+
+# ================================
+# Arquivos de Configuração Sensíveis
+# ================================
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Secrets
+secrets.json
+*.secrets
+appsettings.secrets.json
